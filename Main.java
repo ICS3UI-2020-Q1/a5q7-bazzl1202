@@ -40,8 +40,28 @@ public class Main {
       } 
       // puts the stars on different lines
       System.out.println(" ");
-      }
+    }
     
+    // ask the user to input a number between 1 and 10
+    System.out.println("Please enter a number between 1 and 10");
+    // create a variable for user input
+    int integerTwo = input.nextInt();
+
+    // accumulator variable
+    int sum = 1;
+
+    for(count = 1; count <= integerTwo; count++){
+      System.out.println("*");
+      while(sum > 1 && sum <= integerTwo){
+        sum++;
+
+      }
+        
+    }
+  
+    
+      
+
 
     
     
